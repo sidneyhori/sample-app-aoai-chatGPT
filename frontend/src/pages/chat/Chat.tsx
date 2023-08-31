@@ -545,7 +545,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Ask me anything!</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>I was configure by Aeonix to answer your questions</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>I was configured by Aeonix to answer your questions</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
